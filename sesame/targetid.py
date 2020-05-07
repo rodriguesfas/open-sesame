@@ -2,13 +2,13 @@
 import json
 import os
 import sys
-import time
+
 from optparse import OptionParser
 
 from dynet import *
-from evaluation import *
-from raw_data import make_data_instance
-from semafor_evaluation import convert_conll_to_frame_elements
+from sesame.evaluation import *
+from sesame.raw_data import make_data_instance
+from sesame.semafor_evaluation import convert_conll_to_frame_elements
 
 
 optpr = OptionParser()

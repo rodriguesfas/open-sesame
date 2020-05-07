@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from copy import deepcopy
 
-from frame_semantic_graph import LexicalUnit, Frame, FrameElement, FrameSemParse
-from housekeeping import *
+from sesame.frame_semantic_graph import LexicalUnit, Frame, FrameElement, FrameSemParse
+from sesame.housekeeping import *
 
 VOCDICT = FspDict()
 LEMDICT = FspDict()

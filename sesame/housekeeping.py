@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
-from globalconfig import *
-import random
+
 import sys
+import random
+
+from sesame.globalconfig import *
 
 
 class FspDict:
@@ -59,7 +61,7 @@ class FspDict:
             raise Exception("not in dictionary", itemid)
 
     def printdict(self):
-        print sorted(self._strtoint.keys())
+        print(sorted(self._strtoint.keys()))
 
     def size(self):
         if not self._locked:

@@ -7,9 +7,9 @@ import xml.etree.ElementTree as et
 
 from nltk.corpus import BracketParseCorpusReader
 
-from conll09 import *
-from globalconfig import *
-from sentence import *
+from sesame.conll09 import *
+from sesame.globalconfig import *
+from sesame.sentence import *
 
 
 def read_conll(conll_file, syn_type=None):
